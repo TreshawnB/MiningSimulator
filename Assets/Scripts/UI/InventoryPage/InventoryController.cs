@@ -183,6 +183,7 @@ public class InventoryController : MonoBehaviour
             //adds all the slots in the filled slots list to the empty slots list
             FilledSlots.Clear();
             //removes everything i the filled slots list
+            counts.Clear();
         }
     }
 
@@ -211,8 +212,10 @@ public class InventoryController : MonoBehaviour
 
                     EmptySlots.Add(filled);
                     FilledSlots.RemoveAt(i);
+                    Debug.Log(counts);
                 }
             }
         }
+        counts.Clear();
     }
 }

@@ -49,6 +49,15 @@ TagManager:
   - name: front
     uniqueID: 1055190851
     locked: 0
+  - name: Dirt
+    uniqueID: 1437177253
+    locked: 0
+  - name: Stone
+    uniqueID: 2434098051
+    locked: 0
+  - name: Grass
+    uniqueID: 2530597225
+    locked: 0
   - name: player
     uniqueID: 3097413539
     locked: 0

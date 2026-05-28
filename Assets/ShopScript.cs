@@ -37,6 +37,7 @@ public class ShopScript : MonoBehaviour
         SellSelectedText.text = "$" + SellSelectedvalue + "";
         SellAllText.text = "$" + SellAllvalue + "";
         pxicostText.text = "Cost: " + pixcost + "";
+        MoneyText.text = "$ " + Money + "";
 
         if (MyIntSys.CanInteract == true && MyIntSys.playerInRange == true)
         {
@@ -175,6 +176,8 @@ public class ShopScript : MonoBehaviour
                     }
             }
             Invc.GetComponent<InventoryController>().MatinfoList.Clear();
+            SellAllvalue = 0;
+            SellSelectedvalue = 0;
         }
 
     }
