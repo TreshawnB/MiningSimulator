@@ -82,25 +82,21 @@ public class ShopScript : MonoBehaviour
                 }
                 if (selected.GetComponent<MaterialInfoScript>().Name == "Raw Iron")
                 {
-                    //replace one with how much each is worth
                     SellSelectedvalue =+ SellSelectedvalue + selected.GetComponent<MaterialInfoScript>().Amount * 20;
                 }
 
                 if (selected.GetComponent<MaterialInfoScript>().Name == "Shiny Raw Iron")
                 {
-                    //replace one with how much each is worth
                     SellSelectedvalue =+ SellSelectedvalue + selected.GetComponent<MaterialInfoScript>().Amount * 160;
                 }
 
                 if (selected.GetComponent<MaterialInfoScript>().Name == "Amethyst Piece")
                 {
-                    //replace one with how much each is worth
                     SellSelectedvalue =+ SellSelectedvalue + selected.GetComponent<MaterialInfoScript>().Amount * 80;
                 }
 
                 if (selected.GetComponent<MaterialInfoScript>().Name == "Shiny Amethyst Piece")
                 {
-                    //replace one with how much each is worth
                     SellSelectedvalue =+ SellSelectedvalue + selected.GetComponent<MaterialInfoScript>().Amount * 400;
                 }
             }
