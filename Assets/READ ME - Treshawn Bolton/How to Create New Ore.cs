@@ -2,7 +2,10 @@ using UnityEngine;
 
 public class HowtoCreateNewOre : MonoBehaviour
 {
-    //This will go throught each step in how to easily create new functional ore types
+    //This was created by Treshawn Bolton Contact me at ItsTre8r@gmail.com or (352) 258-3508
+
+    //Step by Step how to easily create new functional ore types
+
     //First create or find a ore sprite and a ore drop sprite (I suggest right clicking the ore sprite i created and pressing the REVEAL IN FINDER button)
     //Then Press the file and duplicate it and drag the new duplicated file to downloads
     //The sprites were made on a website called piskel (All you have to do is search piskel on google and it should show up)
